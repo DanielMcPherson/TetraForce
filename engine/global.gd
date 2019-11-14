@@ -11,7 +11,7 @@ var player # this client's player
 
 var health: float = 5
 var max_health: float = 5
-onready var equip_slot = {controller.B: "Sword", controller.X: "Bomb", controller.Y: ""}
+onready var equip_slot = {controller.B: "Sword", controller.X: "Bomb", controller.Y: "Bow"}
 
 var items = ["Sword", "Bow", "Bomb"]
 
